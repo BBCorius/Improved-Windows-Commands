@@ -1,0 +1,10 @@
+USAGE: rng [parameter1] [parameter2] [parameter3]
+
+Parameter1 & Parameter2 - Used to specify range between numbers. Parameter1 is the minumum number and Parameter2 is the maximum. Random numbers will be generated within the range.
+                          WARNING: Do not leave Parameter1 and Parameter2 empty.
+
+Parameter3 - Detects for "sr" condition. Use "sr" (without airquotes) as Parameter3 to print output. Leave empty to keep hidden.
+
+
+Use "for" to store generated number as variable in batch files.
+EXAMPLE: for /f %%i in ('rng 1 10') do set variable=%%i
